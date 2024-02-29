@@ -1,0 +1,189 @@
+@font-face {
+    font-family: breakin;
+    src: url(../font/BreakingBad.ttf);
+    
+}
+/* He metido otra caligrafia en la carpeta tambien en mis pruebas.*/
+.estilo{
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100% ;
+    background-image: url(../Img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: helvetica;
+    color: white;
+    font-size: 14px;   
+    
+}
+
+.estilotabla{
+    background-color:#0c3e11 ;
+    text-align: center;
+    font-family: helvetica ;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    
+     
+}
+
+p{
+    font-size: 10px;
+    font-family: helvetica;
+}
+
+h1{
+    font-family: breakin;
+    color: white;
+    size: 14px;
+    font-weight: bold;
+}
+
+#poster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    
+}
+
+
+.recuadros{
+
+    width: 300px;
+    height: 30px; 
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    
+}
+
+#formulario{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+.input{
+    
+    size: 14px;
+    width: 350px;
+    height: 100%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+     /* Aquí Raúl, te voy ser sincero aunque sea en perjuicio de mi nota.
+     Al final tengo el formulario con las cajitas input bien alineadas, pero mi intención era
+     poner todo recto y alineado, es decir, "nombre y al lado la cajita" y que quedaran todas
+     alineadas visualmente. No lo he conseguido, porque cambio aqui el width a 400px por ejemplo
+     y las cajitas se corrian dependiendo del texto, por lo que no quedaban alineadas visualmente.
+     Tuve que arreglaro poniendo br para poner el nombre arriba y la cajita abajo.
+
+     Pero en contraprestación, he intentado cambiar el diseño del botón enviar y tambien el cursor al 
+     pasar por él.
+
+     */
+}
+input[type="submit"]{
+    width: 150px;
+    height: 50px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+   
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    
+}
+
+.tablaestilo{
+
+  
+    width:70%;
+    height: 60%;
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px;
+    background-color:rgba(37, 37, 37, 0.971)
+    
+}
+
+.tablaestilo td{
+    width: 100px;
+   
+}
+
+.tablaestilo2{
+    width: 60%;
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color:rgba(37, 37, 37, 0.971);
+    border: 2px;
+    
+}
+.tablaestilo2 td{
+    width: 100px;
+    
+}
+
+
+#columna1{
+    background-color: rgb(120, 189, 46);
+}
+#columna2{
+    background-color: #92bf76;
+}
+#columna3{
+    background-color: #c9d6c1;
+}
+#columna4{
+    background-color: #518531;
+}
+#columna5{
+    background-color: #2b4819;
+}
+#columna6{
+    background-color: #6baa44;
+}
+#columna7{
+    background-color: #9ca796;
+}
+#columna8{
+    background-color: #3e5f2c;
+}
+#columna9{
+    background-color: #af74da;
+}
+
+#columna10{
+    background-color: #a8b12d;
+}
+#foto{
+
+    width: 100%;
+    display: block;
+    
+}
+
+#imagenestabla{
+    width: 65% ; 
+    align-items: center;
+    align-content: center;
+    
+}

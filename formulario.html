@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="Img/icon.png">
+</head>
+<body class="estilo">
+
+    <div id="formulario" >
+        <form action="raul.rodriguez@proeducaglobal.com" method="post" name="formulariobreak" enctype="multipart/form-data">    
+            <fieldset>
+                <legend><h2><b><i>Breaking Bad - Que comience el juego!</i></b></h2></legend>
+                <div class="input">
+                <for= for="nombre">Nombre:
+                <br><input type="text" placeholder="Campo Obligatorio" class="recuadros" required>
+                <br>
+            
+                <br>Apeliidos:
+                  <br><input type="text" class="recuadros" required placeholder="Campo Obligatorio">
+
+                <br>
+            
+            
+                <br>Dirección:
+                   <br><input type="text" class="recuadros">
+                <br>
+            
+                 <br>Código Postal:
+                    <br><input type="text" class="recuadros" maxlength="5">
+                <br>
+                <br>Ciudad:
+                    <br><input type="text" class="recuadros">
+                <br>
+            
+            
+                <br>DNI:
+                    <br><input type="text" class="recuadros">
+                <br>
+            
+            
+                <br>Email:
+                    <br><input type="email" class="recuadros" required placeholder="Campo Obligatorio">
+                <br>
+            
+            
+                <br>Sexo: 
+                    <input type="radio" name="sexo" value="H" >Hombre
+                    <input type="radio" name="sexo" value="M" >Mujer
+                <br>    
+                    
+            
+            
+                <br>Fecha de Nacimiento:
+                    <br><input type="date" class="recuadros">
+            
+                <br>
+                <br>Elige tu favorito:
+                    
+                    <select  name="personajes">
+                        <option value="0">Elige tu favorito</option>
+                        <option value="1">Jessie Pinkman</option>
+                        <option value="2">Walter White</option>
+                        <option value="3">Saul Goodman</option>
+                        <option value="4">Gustavo Fring</option>
+                        <option value="5">Pollos Hermanos</option>
+                        <option value="6">Otros personajes</option>
+                            
+                    </select>
+                   
+                    <br>
+                    
+            
+            
+                <br>Si Elegiste la opcion Otros personales,¡dime el tuyo!
+                <br><input type="text" placeholder="Escribe tu personaje favorito aquí" class="recuadros">
+                <br>
+            
+
+                <br>Comentario:
+                <br><textarea name="texto" id="" cols="40" rows="10" placeholder="Escribe aquí tus comentarios..."></textarea>
+
+                <input type="file" name="adjunto" accept=".pdf, .jpg, .png" multiple><input type="reset" value="Borrar Datos">
+                <br>
+                <br>
+                <p><input type="submit" value="Enviar Formulario"></p>
+                
+                </div>
+
+
+
+            </fieldset>  
+    
+
+        </form>
+    </div>
+</body>
+</html>
